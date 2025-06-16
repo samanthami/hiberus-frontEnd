@@ -44,6 +44,34 @@ To execute the backend :
 https://github.com/samanthami/hiberus
 ```
 
+## Estructura del Proyecto
+
+### Backend
+
+```
+/src/main/java
+    /com/ejemplo/proyecto
+        /controller   # Controladores
+        /service      # Lógica de negocio
+        /repository   # Acceso a la base de datos
+        /model        # Entidades
+```
+
+### Frontend
+
+```
+/src/app
+  /employee
+    /components   # Componentes de la aplicación
+    /services     # Servicios para interactuar con la API
+    /models     # Interfaces y modelos de datos
+  /department
+    /components   # Componentes de la aplicación
+    /services     # Servicios para interactuar con la API
+    /models     # Interfaces y modelos de datos
+```
+
+
 
 
 ## Additional Resources
